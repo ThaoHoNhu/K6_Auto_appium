@@ -24,9 +24,9 @@ public class lab_5_1 {
                     System.out.println("Option 01");
                     System.out.print("Enter Student ID:");
                     int idNumber = scanner.nextInt();
-                    System.out.print("Enter Studen name:");
-                    Scanner myObj = new Scanner(System.in);
-                    String name = myObj.nextLine();
+                    System.out.print("Enter Student name:");
+                    scanner.nextLine();
+                    String name = scanner.nextLine();
                     mapStudent.put(idNumber,name);
 
                 }
